@@ -30,12 +30,13 @@ $students = array(
 <H1> Závod </H1>
 
 <?php
-for ($i = 1; $i <= 10 ; $i++) {?>
+for ($i = 1; count($students) >= $i ; $i++) {?>
  <?= $i?>. <?=$students[$i]?> <br>
 
 <?php }
 
 ?>
+
 
 
 
